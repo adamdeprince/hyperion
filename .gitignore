@@ -21,3 +21,6 @@ hyperion.json
 
 # Generated site HTML (source of truth is Markdown)
 /html/
+
+# App static assets (not published in this repo)
+/static/
