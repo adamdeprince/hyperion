@@ -1,0 +1,23 @@
+# Build trees
+/build/
+/build-*/
+/cmake-build-*/
+compile_commands.json
+
+# Editor / OS
+*~
+*.swp
+.DS_Store
+.idea/
+.vscode/
+*.user
+
+# Local secrets and host config (never commit)
+/etc/
+*.env
+!config/*.env.example
+hyperion.json
+!config/hyperion.example.json
+
+# Generated site HTML (source of truth is Markdown)
+/html/

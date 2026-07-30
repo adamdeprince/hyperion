@@ -1,0 +1,18 @@
+{
+  "redis_path": "/run/goblin-core/goblin.sock",
+  "ui_hz": 4,
+  "equity_hz": 1,
+  "account_poll_sec": 60,
+  "alpaca_limit_qpm": 200,
+  "accounts": [
+    "/etc/jinghong/live.env",
+    "/etc/jinghong/paper1.env",
+    {
+      "env": "/etc/jinghong/paper2.env"
+    },
+    {
+      "env": "/etc/jinghong/paper3.env",
+      "label": "Paper 3"
+    }
+  ]
+}
